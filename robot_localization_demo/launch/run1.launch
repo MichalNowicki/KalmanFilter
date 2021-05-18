@@ -1,0 +1,15 @@
+<launch>
+
+    <!-- visualization node to show the real turtle, the measurements and the estimated position -->
+    <node pkg="turtlesim" type="turtlesim_node" name="turtlesim" />
+    <!-- keyboard control for the real turtle -->
+    <node pkg="turtlesim" type="turtle_teleop_key" name="teleop" output="screen" />
+
+    <!-- 'turtle odometry node', transforming the movements of the real turtle to a noisy measurement at a given frequency -->
+    <node pkg="robot_localization_demo" type="odometry_node" name="turtle1_odometry_node"
+          args="--frequency 20.
+              --error-vx-random 0.5
+              --error-wz-random 0.5
+              --error-wz-systematic 0.
+              --visualize" output="screen" />
+</launch>

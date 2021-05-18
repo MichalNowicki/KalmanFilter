@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/michalnowicki/catkin_labrob/src/robot_localization_demo/cmake-build-debug/devel/setup.sh

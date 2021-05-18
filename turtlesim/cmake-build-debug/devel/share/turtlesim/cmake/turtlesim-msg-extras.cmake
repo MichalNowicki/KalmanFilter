@@ -1,0 +1,2 @@
+set(turtlesim_MESSAGE_FILES "/home/michalnowicki/catkin_labrob/src/turtlesim/msg/Color.msg;/home/michalnowicki/catkin_labrob/src/turtlesim/msg/Pose.msg")
+set(turtlesim_SERVICE_FILES "/home/michalnowicki/catkin_labrob/src/turtlesim/srv/Kill.srv;/home/michalnowicki/catkin_labrob/src/turtlesim/srv/SetPen.srv;/home/michalnowicki/catkin_labrob/src/turtlesim/srv/Spawn.srv;/home/michalnowicki/catkin_labrob/src/turtlesim/srv/TeleportAbsolute.srv;/home/michalnowicki/catkin_labrob/src/turtlesim/srv/TeleportRelative.srv")

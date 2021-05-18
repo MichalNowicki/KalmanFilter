@@ -1,0 +1,12 @@
+-I/home/michalnowicki/catkin_labrob/src/turtlesim/cmake-build-debug/devel/include
+-I/home/michalnowicki/catkin_labrob/src/turtlesim/include
+-I/opt/ros/noetic/include
+-I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp
+-I/usr/include
+-I/usr/include
+-DROS_BUILD_SHARED_LIBS=1
+-DROS_PACKAGE_NAME="turtlesim"
+-DROSCONSOLE_BACKEND_LOG4CXX
+-o
+/home/michalnowicki/catkin_labrob/src/turtlesim/cmake-build-debug/include/turtlesim/moc_turtle_frame.cpp
+/home/michalnowicki/catkin_labrob/src/turtlesim/include/turtlesim/turtle_frame.h
