@@ -19,16 +19,16 @@
               --frequency 1.
               --error-x-random 0.6
               --error-y-random 0.6
-              --error-yaw-random 0.2
+              --error-yaw-random 5.0
               --error-x-systematic 0.
               --error-y-systematic 0.
-              --error-yaw-systematic 0.
+              --error-yaw-systematic 5.0
               --turtle-color-red 255
               --turtle-color-green 255
               --turtle-color-blue 0" output="screen" />
 
   <node pkg="robot_localization_demo" type="positioning_system_node" name="turtle1_positioning_system_node2"
-        args="--topic-out turtle1/sensors/pose2
+        args="--topic-out turtle1/sensors/ahrs
               --frequency 1.
               --error-x-random 0.2
               --error-y-random 0.2
