@@ -29,12 +29,12 @@
 
   <node pkg="robot_localization_demo" type="positioning_system_node" name="turtle1_positioning_system_node2"
         args="--topic-out turtle1/sensors/ahrs
-              --frequency 1.
-              --error-x-random 0.2
-              --error-y-random 0.2
+              --frequency 20.
+              --error-x-random 5.
+              --error-y-random 5.
               --error-yaw-random 0.1
-              --error-x-systematic 0.
-              --error-y-systematic 0.
+              --error-x-systematic 5.0
+              --error-y-systematic 5.0
               --error-yaw-systematic 0.
               --turtle-color-red 0
               --turtle-color-green 0
